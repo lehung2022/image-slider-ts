@@ -10,8 +10,12 @@ const images = [
   "https://wallpapercave.com/dwp1x/wp7070273.jpg",
   "https://wallpapercave.com/dwp1x/wp7070282.jpg",
   "https://wallpapercave.com/dwp1x/wp7070298.jpg",
-  "https://wallpapercave.com/dwp1x/wp7070315.jpg"
+  "https://wallpapercave.com/dwp1x/wp7070315.jpg",
+  "https://wallpapercave.com/dwp1x/wp5746134.jpg",
+  "https://wallpapercave.com/dwp1x/wp5746184.jpg"
 ]
+
+
 
 function App() {
 
@@ -44,6 +48,7 @@ function App() {
                 </div>
               )
           )}
+         
         </div>
       </div>
     </>
