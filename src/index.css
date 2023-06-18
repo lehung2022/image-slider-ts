@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 22px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("./images/Marshall_law_key_art_wallpaper.jpg");
+  background-size: cover;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  width: 100%; 
+  max-width: 1000px;
+  border: 1px solid #b3b3c0;
+  margin: auto;
+  color: #d9d7e3;
+}
+
+.slider {
+  display: flex;
+  flex-direction: row;
+}
