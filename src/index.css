@@ -32,7 +32,22 @@ body {
   color: #d9d7e3;
 }
 
+.App h2 {
+  text-align: center;
+}
+
 .slider {
   display: flex;
   flex-direction: row;
+}
+
+.left-arrow {
+  display: flex;
+  flex-direction: flex-start;
+  
+}
+
+.right-arrow {
+  display: flex;
+  flex-direction: flex-end;
 }

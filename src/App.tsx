@@ -11,7 +11,6 @@ const images = [
   "https://wallpapercave.com/dwp1x/wp7070282.jpg",
   "https://wallpapercave.com/dwp1x/wp7070298.jpg",
   "https://wallpapercave.com/dwp1x/wp7070315.jpg",
-  "https://wallpapercave.com/dwp1x/wp5746134.jpg",
   "https://wallpapercave.com/dwp1x/wp5746184.jpg"
 ]
 
@@ -37,18 +36,17 @@ function App() {
           <div className="left-arrow" onClick={prevSlide}>
             ⬅
           </div>
-          <div className="right-arrow" onClick={nextSlide}>
-            ⮕
-          </div>
           {images?.map(
             (image, index) =>
               current === index && (
                 <div key={image} className="slide">
-                  <img src={image} alt="images" />
+                  <img src={image} alt="images" width={800} height={600} />
                 </div>
               )
           )}
-         
+          <div className="right-arrow" onClick={nextSlide}>
+            ⮕
+          </div>
         </div>
       </div>
     </>
