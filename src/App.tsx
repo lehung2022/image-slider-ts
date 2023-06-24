@@ -34,7 +34,7 @@ function App() {
         <h2>Project 1: Carousel</h2>
         <div className="slider">
           <div className="left-arrow" onClick={prevSlide}>
-            ⬅
+            ⬅️
           </div>
           {images?.map(
             (image, index) =>
@@ -45,7 +45,7 @@ function App() {
               )
           )}
           <div className="right-arrow" onClick={nextSlide}>
-            ⮕
+            ➡️
           </div>
         </div>
       </div>
