@@ -40,7 +40,7 @@ function App() {
             (image, index) =>
               current === index && (
                 <div key={image} className="slide">
-                  <img src={image} alt="images" width={800} height={600} />
+                  <img src={image} alt="images" width={800} height={500} />
                 </div>
               )
           )}
